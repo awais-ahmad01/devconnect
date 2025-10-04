@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+
 import { ButtonProps } from '../../types'
 
 export default function Button({ 

@@ -12,7 +12,7 @@ export default function ForgotPasswordForm() {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitting }
+    formState: { errors}
   } = useForm<ForgotPasswordFormData>({
     resolver: yupResolver(forgotPasswordSchema),
     defaultValues: {

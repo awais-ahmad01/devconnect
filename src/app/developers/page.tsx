@@ -1,7 +1,7 @@
 
 'use client';
 import { useState } from "react";
-import { Search, MapPin, Briefcase, DollarSign, CheckCircle2, Clock, Star, Filter } from 'lucide-react';
+import { Search} from 'lucide-react';
 import DeveloperCard from "@/components/shared/developer-card";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
