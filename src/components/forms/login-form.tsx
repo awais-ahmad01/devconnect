@@ -18,7 +18,7 @@ export default function LoginForm({ userType }: LoginFormProps) {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitting },
+    formState: { errors },
     setValue
   } = useForm<LoginFormData>({
     resolver: yupResolver(loginSchema),

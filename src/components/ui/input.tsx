@@ -1,10 +1,10 @@
-import { InputHTMLAttributes, forwardRef } from 'react'
-import { FieldError } from 'react-hook-form'
+import {forwardRef } from 'react'
 
 import { InputProps } from '@/types'
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ label, error, className = '', ...props }, ref) => {
+
     const errorMessage = typeof error === 'string' ? error : error?.message
 
     return (
@@ -15,6 +15,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
             {props.required && <span className="text-red-500 ml-1">*</span>}
           </label>
         )}
+        
         <input
           ref={ref}
           className={`

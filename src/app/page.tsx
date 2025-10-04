@@ -76,21 +76,21 @@ export default function DevConnectLanding() {
      
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 pb-24">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Feature 1 */}
+        
           <FeatureCard
             icon={Users}
             title="Find Talent"
             description="Browse verified developers with proven skills"
           />
 
-          {/* Feature 2 */}
+        
           <FeatureCard
             icon={Briefcase}
             title="Post Projects"
             description="Share your ideas and receive competitive bids"
           />
 
-          {/* Feature 3 */}
+         
           <FeatureCard
             icon={Shield}
             title="Secure Platform"
