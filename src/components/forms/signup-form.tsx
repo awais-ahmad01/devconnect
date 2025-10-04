@@ -27,7 +27,7 @@ export default function SignupForm({ userType }: SignupFormProps) {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitting },
+    formState: { errors },
     setValue
   } = useForm<FormData>({
     resolver: yupResolver(signupSchema as any), 
